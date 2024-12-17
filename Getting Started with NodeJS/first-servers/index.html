@@ -1,0 +1,63 @@
+<!DOCTYPE html> <!-- Specifies the document type and version of HTML -->
+
+<head>
+    <title>My Website</title> <!-- Sets the title of the webpage displayed in the browser tab -->
+    <style>
+        /* Embedded CSS styles for styling elements within the HTML document */
+
+        *,
+        html {
+            margin: 0; /* Sets margin of all elements to 0 */
+            padding: 0; /* Sets padding of all elements to 0 */
+            border: 0; /* Sets border of all elements to 0 */
+        }
+
+        html {
+            width: 100%; /* Sets the width of the HTML element to 100% */
+            height: 100%; /* Sets the height of the HTML element to 100% */
+        }
+
+        body {
+            width: 100%; /* Sets the width of the body element to 100% */
+            height: 100%; /* Sets the height of the body element to 100% */
+            position: relative; /* Sets the positioning context for child elements */
+            background-color: rgb(236, 152, 42); /* Sets the background color of the body */
+        }
+
+        .center {
+            /* Defines CSS rules for the center class */
+            width: 100%; /* Sets the width of elements with class center to 100% */
+            height: 50%; /* Sets the height of elements with class center to 50% */
+            margin: 0; /* Sets margin of elements with class center to 0 */
+            position: absolute; /* Sets the position to absolute for precise placement */
+            top: 50%; /* Sets the top position to the middle of the parent element */
+            left: 50%; /* Sets the left position to the middle of the parent element */
+            transform: translate(-50%, -50%); /* Centers the element horizontally and vertically */
+            color: white; /* Sets the text color to white */
+            font-family: "Trebuchet MS", Helvetica, sans-serif; /* Sets the font family */
+            text-align: center; /* Aligns text to the center */
+        }
+
+        h1 {
+            font-size: 144px; /* Sets the font size of <h1> elements to 144 pixels */
+        }
+
+        p {
+            font-size: 64px; /* Sets the font size of <p> elements to 64 pixels */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Start of the body section -->
+    <div class="center">
+        <!-- Start of a division with class center for content alignment -->
+        <h1>Hello Again!</h1> <!-- Heading 1 element with text "Hello Again!" -->
+        <p>This is served from a file</p> <!-- Paragraph element with text -->
+    </div>
+    <!-- End of the division with class center -->
+</body>
+<!-- End of the body section -->
+
+</html>
+<!-- End of the HTML document -->

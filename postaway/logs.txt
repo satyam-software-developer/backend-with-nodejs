@@ -1,0 +1,2 @@
+[2024-08-23T17:43:03.216Z] info: POST /api/user/register
+[2024-08-23T17:47:27.704Z] info: POST /api/user/login

@@ -1,0 +1,1 @@
+import {connectToMongoDB} from './src/config/mongodb.js';

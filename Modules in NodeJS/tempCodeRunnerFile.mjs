@@ -1,0 +1,1 @@
+console.log(arithmeticModule.sum(10, 20));
